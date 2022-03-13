@@ -45,7 +45,7 @@ body {
 
 .main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
     padding: 0;
     margin: 0;
@@ -78,4 +78,44 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+}
+
+.img-with-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img-text {
+    width: 150px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.image-2 {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: #3882f6;
+    border-style: solid;
 }

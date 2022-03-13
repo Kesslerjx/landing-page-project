@@ -136,3 +136,36 @@ a {
     text-align: end;
     font-weight: bold;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;    
+}
+
+.sign-up-background {
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    color: white;
+    border-radius: 8px;
+    margin: 100px 150px;
+    padding: 50px 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-background .sign-up-button {
+    border: solid;
+    border-color: white;
+    align-self: center;
+}
+
+.sign-up-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-call {
+    font-size: 18px;
+    font-weight: bold;
+}

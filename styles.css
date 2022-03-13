@@ -8,8 +8,8 @@ body {
 
 .hero {
     background-color: #1f2937;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 100px;
 }
 
@@ -118,4 +118,21 @@ a {
     border-radius: 8px;
     border: #3882f6;
     border-style: solid;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
 }
